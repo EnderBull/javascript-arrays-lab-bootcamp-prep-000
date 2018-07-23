@@ -1,26 +1,23 @@
 // Add your functions and code here
 
 function destructivelyAppendKitten(name){
+ 
  return kittens.push(name)
 }
 
-/*describe('Arrays', function() {
-  beforeEach(function() {
-    window.kittens = ['Milo', 'Otis', 'Garfield'];
-  });
+function destructivelyPrependKitten(name){
+  return kittens.unshift(name)
+}
 
-  describe('kittens', function() {
-    it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
+function destructivelyRemoveLastKitten(){
+  
+}
 
-  describe('destructivelyAppendKitten(name)', function() {
-    it('appends a kitten to the end of the kittens array', function() {
-      destructivelyAppendKitten('Ralph')
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
-    })
-  })
+function destructivelyRemoveFirstKitten(){
+  
+}
+
+/*
 
   describe('destructivelyPrependKitten(name)', function() {
     it('prepends a kitten to the beginning of the kittens array', function() {
