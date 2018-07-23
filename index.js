@@ -1,7 +1,7 @@
 // Add your functions and code here
 
 function destructivelyAppendKitten(name){
-  
+  kittens.
 }
 
 /*describe('Arrays', function() {
